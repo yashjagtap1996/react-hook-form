@@ -9,7 +9,6 @@ const App = () => {
   const onSubmit=(data,e)=>{
     setUserInfo(data)
     console.log(data);
-    e.target.reset();
   }
 
   return (
