@@ -6,7 +6,7 @@ const App = () => {
   const { register, handleSubmit, errors } = useForm();
   const [userInfo,setUserInfo]=useState();
 
-  const onSubmit=(data,e)=>{
+  const onSubmit=(data)=>{
     setUserInfo(data)
     console.log(data);
   }
